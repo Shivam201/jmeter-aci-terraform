@@ -60,12 +60,12 @@ variable "JMETER_DOCKER_PORT" {
 
 variable "JMETER_ACR_NAME" {
   type    = string
-  default = ""
+  default = "terraformpipeline"
 }
 
 variable "JMETER_ACR_RESOURCE_GROUP_NAME" {
   type    = string
-  default = ""
+  default = "shivamnewrg"
 }
 
 variable "JMETER_STORAGE_QUOTA_GIGABYTES" {
